@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JBags</title>
+  <link rel="stylesheet" href="pro.css">
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <div class="nav-left">
+      <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1699682037/b_jqguga.png" height="25px">
+      <a href="#" class="logo">JBags</a>
+    </div>
+    <div class="nav-right">
+        <a href="#home" class="nav2">Home</a>
+        <a href="#products" class="nav2">Products</a>
+        <a href="#about us" class="nav2">About us</a>
+        <a href="#services" class="nav2">Services</a>
+        <a href="#contact us" class="nav2">Contact us</a>
+    </div>     
+    <div class="icons">
+         <a href="#"><i class='bx bx-search'></i></a>
+         <a href="#"><i class='bx bxs-user-circle'></i></a>
+         <a href="#"><i class='bx bx-shopping-bag'></i></a>
+    </div>
+    <div class="login">
+      <button><a href="#">Login</a></button>
+    </div>
+  </div>
+  <div style="background-color: rgb(251, 243, 234); width: 200px; height: 300px;padding: 20px; float: right;" id="cart">
+    Total item-<b id="c"></b>
+    <ol id="hello"></ol>
+</div>
+  <section class="home" id="home">
+  <div class="home-page">
+      
+  </div>
+</section>
+  <section class="shop" id="products">
+    <div class="container">
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699620295/handmade_jute_bag_o1zefm.jpg" width="200px" height="200px">
+        <h4>slice jute bag</h4>
+        <h5>650.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('slice jute bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699633438/east_bhhrsy.jpg" width="200px" height="200px">
+        <h4>easter bag</h4>
+        <h5>500.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('easter bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699620314/handbag_emb_rvynpk.jpg" width="200px" height="200px">
+        <h4>embroided wrist bag</h4>
+        <h5>350.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('embroided wrist bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699620320/embr_hyxw3i.jpg" width="200px" height="200px">
+        <h4>embroided jute bag</h4>
+        <h5>650.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('embroided jute bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699620338/canv_teotye.jpg" width="200px" height="200px">
+        <h4>handbag jute</h4>
+        <h5>250.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('handbag jute')">
+      </div>  
+      <div class="box">  
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699633694/sling_et4chh.jpg" width="200px" height="200px">
+        <h4>sling bag</h4>
+        <h5>499.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('sling bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699634564/pers_efwwvt.webp" width="200px" height="200px">
+        <h4>designer jute bag</h4>
+        <h5>345.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('designer jute bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699634616/pers2_lbfb2g.jpg" width="200px" height="200px">
+        <h4>customized jute bag</h4>
+        <h5>500.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('customized jute bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699634887/bot_y0ssur.jpg" width="200px" height="200px">
+        <h4>bottle bag</h4>
+        <h5>150.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('bottle bag')">
+      </div>
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699633960/banja_dmryri.jpg" width="200px" height="200px">
+        <h4>banjara bag</h4>
+        <h5>250.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('banjara bag')">
+      </div>  
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699678462/bas_pcnupb.jpg" width="200px" height="200px">
+        <h4>jute basket</h4>
+        <h5>350.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('jute basket')">
+      </div>  
+      <div class="box">
+        <img src="https://res.cloudinary.com/dao8y9p5v/image/upload/v1699678479/pan_gmjy6p.jpg" width="200px" height="200px">
+        <h4>plant bag</h4>
+        <h5>250.00 rs</h5>
+        <input type="button" value="Add to Cart" onclick="add('plant bag')">
+      </div>  
+   </div>
+  </section>
+<section class="about" id="about us">
+  <div class="aboutus">
+    <h2>About Us</h2>
+     <p>We provide Eco-Friendly jute bags that can be recycled.</p>
+  </div>
+</section>
+<br>
+<br>
+<section class="contact" id="contact us"> 
+  <div class="contactus">
+     <h2>Contact Us</h2>
+     <p>Elima Das</p>
+     <p>+91 1234567897</p>
+     <p>elimadas23@gmail.com</p>
+  </div>
+  <div class="socialicons">
+       <div class="sc-ic1">
+        <a>
+         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/600px-Instagram_logo_2022.svg.png" class="sc-ic1-img">
+        </a>
+        <a>    
+        <img src="https://img.freepik.com/premium-vector/blue-social-media-logo_197792-1759.jpg" class="sc-ic1-img">
+        </a>
+        <a>
+         <img src="https://cdn3.iconfinder.com/data/icons/2018-social-media-logotypes/1000/2018_social_media_popular_app_logo_twitter-512.png" class="sc-ic1-img">
+        </a>
+        </div>
+  </div>
+</section>
+  <div class="last">
+      <p>© 2023 JBags. All rights reserved.</p>
+  </div>
+  <script>
+    var x=0;
+    document.getElementById("c").innerText=x;
+    function add(val){
+        document.getElementById("hello").innerHTML+="<li>"+val+"<input type='button' value='X' onclick='remove()'></li>";
+        x=x+1;
+        document.getElementById("c").innerText=x;
+    }
+function remove(){
+    var listItem= document.getElementsByTagName("li");
+    for(var i=0;i<listItem.length;i++){
+        listItem[i].onclick=function(){
+            this.parentNode.removeChild(this);
+        }
+    }
+    x=x-1;
+    document.getElementById("c").innerText=x;
+}
+  </script>
+</body>
+</html>

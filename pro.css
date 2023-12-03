@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(152, 110, 38);
+    border: 2px solid black;
+    position:sticky;
+}
+.nav-left{
+    padding: 10px;
+    padding-left: 10px;
+}
+.nav-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav2{
+    padding: 10px;
+    padding-left: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 15px;
+}
+.logo{
+    padding: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.icons{
+   display: inline-block;
+   padding: 10px;
+   padding-right: 10px;
+}
+.icons i{
+    color: var(--text-color);
+    font-size: 24px;
+    margin-left: 15px;
+}
+.icons i:hover{
+    opacity: 0.7;
+}
+.login{
+    display: inline-block;
+   padding: 10px;
+   padding-right: 20px;
+}
+section{
+    padding: 100px 8%;
+}
+.shop{
+    background-color: #C9C0BB;
+}
+.container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(180px,auto));
+   align-items: center;
+   gap: 2em;
+   text-align: center;
+   cursor: pointer;
+   padding-top: 2em;
+}
+
+.box{
+    padding : 0px 20px 10px 20px;
+    justify-content: space-between;
+    background: transparent;
+    box-shadow: 5px 30px 56.1276px rgb(55 55 55/12%);
+    border-radius: 10px;
+    position: relative;
+    transition: all .35px ease;
+    background-color: #c19a6b;
+}
+.box h4{
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+.box h5{
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.about{
+    background-image: url(https://res.cloudinary.com/dao8y9p5v/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1699674133/bag2_qvdzkd.jpg);
+  
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.aboutus{
+    text-align: center;
+}
+.aboutus h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: rgb(243, 243, 247);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.aboutus p{
+    font-size: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #faf7f7;
+}
+.contact{
+    background: rgb(253, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.contactus{
+    text-align: center;
+}
+.contactus h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.contactus p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkmagenta;
+}
+
+.sc-ic1-img{
+    height: 45px;
+   
+}  
+.sc-ic1{
+    padding: 30px;
+}
+
+.last{
+    background: black;
+    color: aliceblue;
+    word-spacing: 10px;
+    font-size: 10px;
+    text-align: center;
+    font-style: italic;
+}
+.home{
+    background-image: url(https://res.cloudinary.com/dao8y9p5v/image/upload/c_fill,g_auto,h_250,w_970/b_rgb:000000,e_gradient_fade,y_-0.50/c_scale,co_rgb:ffffff,fl_relative,l_text:montserrat_25_style_light_align_center:Shop%20Now,w_0.5,y_0.18/v1699680008/grp_ieghl7.jpg);
+     
+    border: 2px solid black;
+}
